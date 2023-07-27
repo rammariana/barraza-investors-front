@@ -1,0 +1,76 @@
+
+//colores
+$color-principal-1: #37b7e3; 
+$color-principal-2: #55cff8 ; 
+$color-secundario-1: #875fcc; 
+$color-secundario-2: #6f74b1;
+$color-dark: #105a74; 
+$color-white: rgb(255, 255, 255);
+$color-error: #F74747;
+$color-success: #1dcf17;
+$color-black: #2c3e50;
+$color-placeholder: #6c757d;
+$color-footer: #dbf5fd ; 
+$size-placeholder: .875em;
+/*
+#37b7e3   rgb(55, 183, 227) celeste
+#6f74b1    rgb(111, 116, 177) morado
+#F74747    rgb(247, 71, 71) rojo
+reg(247, 154, 71) salmon
+rgb(199, 247, 71) verde limon
+rgb(247, 71, 196) magenta
+rgb(71, 247, 146) verde mar
+rgb(247, 210, 71) amarillo
+rgb(231, 71, 62) lila
+rgb(199, 247, 71) verde manzana
+
+
+*/
+//fuentes
+//tamaños
+$sm: 0.5rem;
+$md: 1rem;
+$lg: 1.5rem;
+$xlg: 2rem;
+//animaciones
+@keyframes aparicion {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes desplazamiento {
+  from{
+    transform: translateY(15px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes desplazamiento-x {
+  from{
+    transform: translateX(-5px);
+  }
+  to{
+    transform: translateX(20%);
+  }
+}
+
+@keyframes gradient {
+  0%{  
+    background: $color-principal-2
+}
+50%{
+      background: $color-secundario-2
+}
+  75%{  
+    background: $color-secundario-1
+}
+100%{
+      background: $color-principal-2
+
+}
+}
+
