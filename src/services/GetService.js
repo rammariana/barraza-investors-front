@@ -1,9 +1,8 @@
 import { reactive } from "vue";
 
-
 // Este es el servicio para leer los datos
 class JsonbinService {
-  jsonbin;
+  jsonbin; // cambiar
   finnhub;
   exchange;
   constructor() {
@@ -22,6 +21,7 @@ class JsonbinService {
     return this.exchange;
   }
   async fetchJsonbin() {
+    // cambiar
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
